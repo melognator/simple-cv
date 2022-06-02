@@ -3,10 +3,20 @@ body {
 }
 
 h1#titulo {
+    font-weight: 300;
+    font-size: calc(1vw + 14px);
+    text-align: center;
+    color: white;
+    letter-spacing: calc(0.1vh + 2px);
+    text-transform: uppercase;
+}
+
+h2#nombre {
     font-weight: 600;
     font-size: calc(1vw + 14px);
     text-align: center;
     color: white;
+    /* letter-spacing: calc(0.1vh + 2px); */
 }
 
 a {
